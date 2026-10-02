@@ -1,6 +1,27 @@
 # Brainrot Legends: Playable Brainrot Moves
 
-All 80 playable brainrots with their class, basic attack, two specials and ultimate. These are starting numbers to tune in playtests. In the game, they go in the brainrot config ModuleScript.
+All 80 playable brainrots with their class, basic attack, two specials and ultimate, picked from the 150-brainrot Mutant Lab Animals roster. These are starting numbers to tune in playtests. In the game, they go in the brainrot config ModuleScript.
+
+## How they were picked
+
+Each pick needed a cool name and look, and a fusion that turns naturally into attacks: a tuba that honks, a camera that flashes, a tesla coil that zaps. The class counts stay at 20 Tanks, 20 Attackers, 15 Ranged, 15 Controllers and 10 Supports, and the 5 starters stay the same.
+
+Brainrots the design doc already uses elsewhere were left out so they can keep those jobs:
+- **Minions:** Antus Cookius.
+- **Small wild brainrots:** Froggus Teapotus, Hamsterus Spongius, Duckus Rainbootus, Wormus Spaghettus, Chickus Eggcartonus and Ladybuggus Dicea.
+- **Big wild brainrots:** Snowleopardus Crystallis, Mantarayus Nebulis, Frillizardus Ferriswheelus and Storkus Lighthousus.
+
+Compared with the design doc's first list, 15 brainrots were swapped for ones that look cooler and fit their attacks better:
+
+| Class | Added | Removed |
+|---|---|---|
+| Tank | Donkeyus Pinatus, Beaglus Hazmatus, Trilobitus Circuitus, Whalus Balloonus | Hippus Soapbarus, Wombatus Footstoolus, Walrusus Toothbrushus, Goatus Tincanus |
+| Attacker | Kangarus Lunchboxus, Stingrayus Surfboardus, Hornedlizardus Gamepadus, Mantishrimpus Prismus | Pinchus Clothespinus, Squirrelus Spatulus, Lemurus Springus, Beaverus Sharpenerus |
+| Ranged | Fennecus Satellitus, Heronus Microscopus, Eelus Teslacoilus, Peacockus Gearus | Dragonflius Paperplanus, Seagullus Friesus, Woodpeckerus Pipettus, Squidus Plasmaglobus |
+| Controller | Octopus Drumkitus, Mandrillus Brainjarus | Skunkus Perfumus, Salamandrus Gluestickus |
+| Support | Fireflius Glowstickus | Poodlus Cupcakus |
+
+Rarities across the 80: 10 Common, 9 Uncommon, 17 Rare, 16 Epic, 11 Legendary, 8 Mythic, 6 Brainrot God and 3 Secret. Every Brainrot God and Secret is playable.
 
 ## How to read this
 
@@ -42,35 +63,17 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Strap Swing (9s).** Swings its backpack in a wide 180° arc for 2.5B, knocking enemies back 4 studs.
 - **Ult: Big Bear Hug.** Charges 10 studs and grabs every enemy brainrot it hits (up to 3). Then it body-slams them for 6B and stuns them for 1.25s.
 
-### 030 Hippus Soapbarus (Common): Slider
-- **Basic: Soap Smack.** Hits leave suds on the ground for 2s. Hippus moves 10% faster on suds.
-- **S1: Soap Slide (8s).** Slides 14 studs on soap. Enemies in the way take 2.5B, slip to the side and are knocked down for 0.75s.
-- **S2: Bubble Burp (10s).** Wraps itself in a bubble shield worth 15% of its max health for 4s. If the shield breaks, it pops for 2B around Hippus.
-- **Ult: Slippery Floor.** Covers a 15-stud area in soap for 5s. Enemies there slide in the direction they move and can't stop quickly. Hippus gains 40% speed there, and Soap Slide's cooldown resets.
-
-### 034 Wombatus Footstoolus (Common): Immovable wall
-- **Basic: Stool Stomp.** Stomps with its footstool.
-- **S1: Plant Down (11s).** Plants itself for 3s and can't be moved. Enemies that hit it in melee or dash into it bounce back 6 studs and take 1.5B.
-- **S2: Stool Hop (8s).** Hops onto its stool and crashes down on a spot up to 8 studs away. It deals 3B in a small area and slows 25%.
-- **Ult: Fortress Furniture.** Grows into a giant footstool for 4s. It gets 60% bigger and can't be stunned or knocked back. Enemies that touch it bounce 8 studs and are stunned for 0.75s, and its basic attacks become ground pounds that hit all around it.
-
 ### 035 Armadillus Bowlingballus ⭐ (Common, starter): Roller
 - **Basic: Tail Whack.** Armored tail swing.
 - **S1: Roll Out (9s).** Curls into a bowling ball and rolls 15 studs. Enemies hit take 3B and are knocked aside.
 - **S2: Armor Up (10s).** Hardens its shell for 3s, taking 35% less damage. Its next basic attack knocks the target into the air for 0.75s.
 - **Ult: STRIKE!** Rolls a huge glowing ball in a 30-stud line. Enemies hit fly into the air for 1.25s and take 6B. If it hits 3 or more enemy brainrots, a "STRIKE!" banner shows and 30% of the ultimate's charge comes back.
 
-### 039 Walrusus Toothbrushus (Common): Sweeper
-- **Basic: Tusk Jab.** Quick double tusk jab.
-- **S1: Tusk Sweep (7s).** A 180° tusk sweep for 3B that knocks enemies back 3 studs.
-- **S2: Minty Foam (11s).** Covers itself in minty foam: a shield worth 20% of max health for 4s. Enemies that hit it while it's foamed are slowed 20%.
-- **Ult: Deep Clean.** Scrubs forward with a spinning toothbrush for 3s. Enemies in front get dragged along with it and take 1.5B every 0.5s. It ends in a foam blast for 3B.
-
-### 056 Goatus Tincanus (Uncommon): Wall-banger
-- **Basic: Can Kick.** Kicks its tin can at close range.
-- **S1: Ram Headbutt (8s).** Dashes 8 studs. The first enemy hit is knocked back 10 studs and stunned for 1.25s if it hits a wall.
-- **S2: Stubborn (12s).** For 2.5s it can't be slowed, stunned or knocked back, and takes 20% less damage.
-- **Ult: Mountain Bleat.** Leaps up to 20 studs and lands with a giant headbutt. Every enemy nearby takes 5B and is knocked 8 studs away. Any enemy knocked into a wall is stunned for 1.5s.
+### 055 Donkeyus Pinatus (Uncommon): Candy-filled bruiser
+- **Basic: Hoof Kick.** A back kick with both hooves. Candy falls out when it lands.
+- **S1: Stuffed (10s).** Stuffs itself full for 3s and takes 30% less damage. Every hit it takes drops a candy on the ground. Enemies who step on candy are stuck chewing and slowed 40% for 1s.
+- **S2: String Swing (8s).** Swings around on its piñata string, kicking everything within 6 studs for 2.5B and knocking them back 4 studs.
+- **Ult: Fiesta Smash.** Bursts open and showers candy over 14 studs. Enemies hit take 5B and are dazed (stunned) for 1.25s. Then Donkeyus refills itself with a shield worth 25% of its max health for 4s.
 
 ### 070 Pangolinus Tapemeasurus (Uncommon): Reel-in tank
 - **Basic: Scale Swipe.** Swipes with armored scales.
@@ -108,11 +111,29 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Gas Cloud (9s).** Releases a 7-stud gas cloud around itself for 4s. Enemies inside take 0.5B per second and deal 15% less damage.
 - **Ult: Toxic Tunnel.** Digs a tunnel from its spot to an exit up to 25 studs away. The tunnel stays for 8s and teammates can use it too. When Badgerus comes out, gas erupts for 5B and blinds enemies for 1.5s, making their basic attacks miss.
 
+### 113 Beaglus Hazmatus (Epic): Hazard sniffer
+- **Basic: Glove Swat.** A swat with its thick rubber gloves.
+- **S1: Seal the Suit (11s).** Seals its hazmat suit for 3s. It takes 25% less damage and can't be slowed, burned or poisoned.
+- **S2: Sniff Out (8s).** Sniffs a 14-stud cone, showing every enemy in it for 4s, even in bushes. Then it dashes to the nearest one it found for 2.5B.
+- **Ult: Decontamination.** Sprays foam all around it in 12 studs for 5B. Enemies hit lose all their shields and boosts and are slowed 50%, fading over 3s. Beaglus gains a shield worth 10% of its max health for each enemy brainrot hit.
+
+### 115 Trilobitus Circuitus (Epic): Circuit linker
+- **Basic: Shell Zap.** A short zap from its blinking circuit shell.
+- **S1: Short Circuit (9s).** Sends a pulse through the ground in 7 studs for 2B. Enemies hit have 2s added to their special cooldowns.
+- **S2: Backup Battery (12s).** For 3s, it records the damage it takes. When the time ends, it gains a shield worth half of that damage for 4s.
+- **Ult: System Overload.** Wires itself to up to 4 enemies within 14 studs for 3s. 30% of the damage any linked enemy takes is copied to the others. When it ends, the circuit overloads for 3B and stuns them all for 1s.
+
 ### 118 Moosus Vendingus (Legendary): Wall builder
 - **Basic: Antler Swipe.** Wide antler swipe.
 - **S1: Snack Wall (11s).** Drops a 10-stud wall of snacks for 3s that blocks movement for everyone.
 - **S2: Soda Spray (8s).** Shakes a soda can and sprays a cone for 3B, pushing enemies back 4 studs.
 - **Ult: Out of Order.** Drops a ring of giant vending machines around a 12-stud area for 4s, trapping enemies inside. Each machine lands for 5B and stuns for 1s.
+
+### 123 Whalus Balloonus (Legendary): Sky crasher
+- **Basic: Basket Bump.** Swings its basket into enemies below.
+- **S1: Ballast Drop (9s).** Drops sandbags from its basket onto a spot up to 10 studs away for 3B, slowing enemies 30% for 2s.
+- **S2: Blowhole Geyser (10s).** Blasts water out of its blowhole. Enemies within 6 studs take 2B and are knocked up for 0.75s.
+- **Ult: Blimp Landing.** Floats up into the sky for 1.5s and can't be targeted, then drifts to any spot within 30 studs. Its shadow warns enemies before it crash-lands for 6B in 12 studs, stunning them for 1.25s.
 
 ### 126 Centipedus Locomotivus (Legendary): Train
 - **Basic: Leg Flurry.** A quick flurry of kicks.
@@ -148,23 +169,11 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 
 ## Attackers (20)
 
-### 007 Pinchus Clothespinus (Common): Combo pincher
-- **Basic: Quick Pinch.** The fastest basic attack in the game.
-- **S1: Pin Combo (6s).** Three pinches for 1B each. The third one pins the target in place for 0.75s.
-- **S2: Clip Dash (8s).** Dashes 10 studs and clips a pin onto the first enemy hit. Pinchus's next basic attack on that enemy deals 2B extra.
-- **Ult: Laundry Line.** Shoots a clothesline 25 studs and zips along it. Every enemy it passes is pinned for 1s and takes 4B. The line stays for 4s and slows enemies who cross it.
-
 ### 016 Hedgehogus Hairbrushus (Common): Spinner
 - **Basic: Bristle Poke.**
 - **S1: Spin Brush (7s).** Spins for 2s while moving at 80% speed, dealing 0.8B every 0.4s (5 hits).
 - **S2: Curl Bounce (9s).** Curls up and bounces into an enemy for 2B, then bounces to up to 2 more nearby enemies.
 - **Ult: Static Frizz.** Builds static for 5s. Every hit sends a spark to 2 nearby enemies for 1B. When it ends, a final spin releases the static for 5B in 9 studs.
-
-### 019 Squirrelus Spatulus (Common): Launcher
-- **Basic: Spatula Smack.**
-- **S1: Flip! (8s).** Flips the target into the air for 1s for 2B. The next basic attack on a target in the air deals double damage.
-- **S2: Acorn Stash (10s).** Buries an acorn where it stands. Press again within 8s to dash back to the acorn.
-- **Ult: Pancake Juggle.** Flips up to 3 enemies in front of it into the air and juggles them for 1.5s, hitting each one 3 times for 2B. Then it smashes them all to the ground.
 
 ### 027 Gooseus Honkhornus ⭐ (Common, starter): Chaos goose
 - **Basic: Peck.**
@@ -172,23 +181,17 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Goose Charge (7s).** Runs 12 studs with its wings out. The first enemy hit takes 3B, and Gooseus gets 25% speed for 2s.
 - **Ult: Peace Was Never an Option.** Goes wild for 6s with 30% faster attacks and 20% more speed. Every 4th peck honks in a small area for 2B and scares enemies for 0.5s.
 
-### 053 Lemurus Springus (Uncommon): Bouncer
-- **Basic: Tail Whip.**
-- **S1: Spring Bounce (7s).** Bounces up to 12 studs onto a spot and deals 3B where it lands.
-- **S2: Reverse Spring (9s).** Bounces 10 studs backward and leaves a spring trap behind. The first enemy to step on it is launched into the air for 0.75s.
-- **Ult: Pogo Frenzy.** Bounces 5 times in a row, onto aimed spots or the nearest enemies. Each landing deals 2B in a small area, and it can't be targeted while in the air.
+### 043 Kangarus Lunchboxus (Uncommon): Boxer
+- **Basic: Jab-Jab.** Two quick boxing jabs.
+- **S1: Hop Kick (7s).** Hops 10 studs and lands a two-foot kick for 3B, knocking the target back 5 studs.
+- **S2: Lunchbox Snap (10s).** Its lunchbox pouch snaps shut on an enemy's hand for 1.5B. The enemy can't basic attack for 1.25s.
+- **Ult: Lunch Rush.** Boxes nonstop for 4s with double attack speed. Every 4th punch is an uppercut that knocks the target up for 0.5s. It finishes with a lunchbox slam for 4B.
 
 ### 054 Snailus Rollerskatus (Uncommon): Speed skater
 - **Basic: Shell Bump.**
 - **S1: Skate Dash (6s).** Dashes 14 studs, and can dash again within 2s.
 - **S2: Slime Trail (10s).** Leaves slime behind it for 3s. Enemies on the slime are slowed 30%, and Snailus gets 20% speed on it.
 - **Ult: Turbo Shell.** Pulls into its shell and shoots off like a puck for 30 studs, bouncing off walls up to 3 times. Each enemy hit takes 4B.
-
-### 058 Beaverus Sharpenerus (Uncommon): Shield breaker
-- **Basic: Gnaw.** Bites ignore 30% of a target's shield.
-- **S1: Sharpen Teeth (8s).** Its next 3 basic attacks deal 50% more damage and break shields completely.
-- **S2: Tail Slap (10s).** Slaps the ground with its tail for 2.5B, knocking nearby enemies up for 0.5s.
-- **Ult: Lumberjack Chomp.** Chomps one enemy 6 times in 2s for 6B total. It removes all of the target's shields and slows it 50%.
 
 ### 066 Mantis Scissorus (Uncommon): Counter-striker
 - **Basic: Snip.**
@@ -202,6 +205,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Stopwatch Stop (10s).** Stops one enemy in time for 0.75s, dealing 2B.
 - **Ult: Photo Finish.** Turns into a blur for 4s with 60% more speed, running through units. Each enemy it passes takes 2B, at most once per second per enemy. It ends with a pounce for 4B.
 
+### 084 Stingrayus Surfboardus (Rare): Wave rider
+- **Basic: Fin Slice.**
+- **S1: Ride the Wave (8s).** Surfs a wave 16 studs. Enemies hit take 2.5B and are carried along 4 studs.
+- **S2: Barb Flick (7s).** Flicks its tail barb 8 studs for 2B, slowing the target 40% for 1.5s. Press again within 2s to dash to it.
+- **Ult: Tidal Surf.** Summons a huge wave and rides it 30 studs forward. Enemies hit are swept to the end, take 6B and are knocked down for 1s.
+
 ### 085 Ostrichus Golfclubus (Rare): Driver
 - **Basic: Club Swing.**
 - **S1: Fore! (8s).** Hits the target 12 studs away for 3B.
@@ -214,6 +223,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Long Sting (7s).** Extends the selfie stick to sting 12 studs away for 3B, adding 3 Venom stacks.
 - **Ult: Viral Post.** Takes a selfie with every enemy in a 15-stud area. They're tagged for 5s: Scorpius can see them, they take 30% more damage from it, and their Venom bursts for 1B per stack.
 
+### 091 Hornedlizardus Gamepadus (Rare): Combo gamer
+- **Basic: Button Mash.** Each hit lights one of the 4 buttons on its back. When all 4 are lit, its next hit deals 2B extra.
+- **S1: Spike Back (8s).** Crouches and fires its back spikes up for 2.5B around it, pushing enemies 2 studs away.
+- **S2: Dodge Roll (6s).** Rolls 8 studs and can't be targeted during the roll. Its next basic attack deals 1.5B extra.
+- **Ult: Cheat Code.** Locks onto one enemy and does an 8-hit combo (up, up, down, down…) for 1B per hit. The last hit shows "K.O.!", blasts the target 10 studs away and stuns it for 1s.
+
 ### 092 Lobsterus Clawmachinus (Rare): Grab-and-smash
 - **Basic: Pincer Snap.**
 - **S1: Claw Grab (9s).** After 1s, a claw drops on a spot, grabbing the enemy there and lifting it for 1s for 3B.
@@ -225,6 +240,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S1: Rocket Fist (8s).** Launches its fist 15 studs for 3B. If it hits, press again to swing over to the target.
 - **S2: Swing Arm (9s).** Grabs a wall or tree and swings 15 studs, landing with a kick for 2B.
 - **Ult: Mech Barrage.** Throws 8 punches in a cone over 2s for 1B each, then an uppercut for 3B that knocks the target up for 1s.
+
+### 116 Mantishrimpus Prismus (Epic): Rainbow puncher
+- **Basic: Prism Jab.** The fastest punch in the ocean.
+- **S1: Bubble Punch (7s).** A punch so fast it bursts a bubble: 3B to the target and 1.5B to enemies behind it.
+- **S2: Refract (9s).** Dashes 8 studs and leaves 2 rainbow afterimages behind. Each one fires a beam at the nearest enemy for 1B.
+- **Ult: Spectrum Barrage.** Throws 7 punches in 1.5s, one for each color of the rainbow, for 1B each. The last, violet punch deals 2B and stuns for 1s.
 
 ### 120 Hawkus Tornadus (Legendary): Tornado
 - **Basic: Talon Strike.**
@@ -278,23 +299,11 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Eraser Hop (9s).** Hops back 8 studs and drops an eraser that slows enemies 30% for 2s.
 - **Ult: Pop Quiz.** Rains 12 pencils on a 10-stud area over 2s, up to 6B in total. Enemies hit are Graded and take 15% more damage for 4s.
 
-### 045 Dragonflius Paperplanus (Uncommon): Boomerang
-- **Basic: Paper Dart.**
-- **S1: Loop-de-Loop (7s).** Throws a paper plane 18 studs that loops back, dealing 2B going out and 2B coming back.
-- **S2: Glide (10s).** Glides 12 studs, even over walls.
-- **Ult: Paper Squadron.** Launches 5 planes that circle Dragonflius for 5s. They dive at enemies within 16 studs for 1.5B each.
-
 ### 047 Porcupinus Strawpokus (Uncommon): Shotgun
 - **Basic: Straw Quill.**
 - **S1: Quill Spread (7s).** Fires 7 straws in a 60° cone for 0.6B each. Close up, more of them hit.
 - **S2: Bristle Up (10s).** Puffs up its quills for 3s. Enemies that hit it in melee take 1B and are pushed 2 studs away.
 - **Ult: Quill Storm.** Fires 30 quills in every direction over 2s for 0.5B each. Enemies hit 4 or more times are slowed 40%.
-
-### 057 Seagullus Friesus (Uncommon): Thief
-- **Basic: Fry Toss.**
-- **S1: Salt Shower (8s).** Sprinkles salt on a 6-stud area for 2.5B. Enemies hit take 10% more damage for 3s.
-- **S2: Steal! (10s).** Swoops to an enemy within 10 studs, steals its food so it can't basic attack for 1s, then flies back.
-- **Ult: Flock Frenzy.** Calls 8 gulls that dive-bomb an area for 3s for 1B each. Enemies inside are blinded and their basic attacks miss.
 
 ### 067 Tuxedus Popcornicus (Uncommon): Delayed popper
 - **Basic: Kernel Shot.** The kernel lands and pops 0.5s later in a small splash.
@@ -314,6 +323,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Rally (8s).** A ball that bounces between up to 3 enemies for 1.5B each.
 - **Ult: Match Point.** Serves 6 aces, each at a different enemy within 25 studs, for 2.5B each. The last ace stuns for 1s.
 
+### 087 Fennecus Satellitus (Rare): Satellite striker
+- **Basic: Signal Ping.** A beeping signal shot.
+- **S1: Uplink Strike (9s).** Marks a spot up to 30 studs away. After 1s, a satellite beam hits it for 3.5B in 5 studs.
+- **S2: Jam Signal (10s).** Its dish ears blast static in a 10-stud cone for 2B. Enemies hit lose 15% of their ultimate charge and are slowed 20% for 2s.
+- **Ult: Orbital Lock.** Locks onto an enemy brainrot within 40 studs. A satellite beam follows it for 3s, dealing 1.5B every 0.5s, and it stays visible even in bushes.
+
 ### 094 Ravenus Megaphonus (Rare): Sound waves
 - **Basic: Caw Wave.** Passes through enemies.
 - **S1: Echo Caw (8s).** A wave that bounces off one wall for 2.5B.
@@ -326,23 +341,29 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Turn It Up (9s).** Its next 3 basic attacks become flamethrower cones.
 - **Ult: Abyssal Inferno.** Its lure flares, then it breathes a 20-stud flame beam for 3s. The beam can be turned and deals 1B every 0.25s.
 
-### 109 Squidus Plasmaglobus (Epic): Chain lightning
-- **Basic: Zap Bolt.**
-- **S1: Chain Lightning (8s).** A bolt that jumps between up to 4 enemies. It deals 2B to the first, then 20% less with each jump.
-- **S2: Ink Cloud (11s).** Drops ink around itself for 4s. Enemies inside can't target anything more than 4 studs away.
-- **Ult: Plasma Storm.** Places a plasma globe for 4s. Lightning hits every enemy within 14 studs for 1B every 0.5s. An enemy hit 5 times is stunned for 1s.
+### 100 Heronus Microscopus (Epic): Sniper
+- **Basic: Lens Beam.** A long, thin beam from its lens eye.
+- **S1: Zoom In (10s).** Stands still for 1s to focus, then fires a shot that reaches 40 studs for 4B.
+- **S2: Wade Back (8s).** Steps back 8 studs on its long legs and pecks enemies within 4 studs of where it was for 1.5B.
+- **Ult: Under the Microscope.** Puts one enemy brainrot within 35 studs under the lens for 5s. It's shown 1.5 times bigger, stays visible, and takes 25% more damage from everyone. Heronus's shots pass through other enemies to reach it.
 
-### 111 Woodpeckerus Pipettus (Epic): Rapid fire
-- **Basic: Drip Shot.** The fastest ranged attack, with low damage per drop.
-- **S1: Peck Peck Peck (6s).** Fires 6 drops at one target in 1s for 0.6B each.
-- **S2: Reagent Swap (5s).** Switches its drops. **Acid:** each hit lowers armor 10%, up to 3 times. **Glow:** reveals and slows 10%.
-- **Ult: Titration.** Fires 40 drops over 3s for 0.25B each while walking at half speed. The last 10 explode in small splashes.
+### 104 Eelus Teslacoilus (Epic): Tesla gunner
+- **Basic: Arc Zap.** The zap jumps to one more enemy nearby for 30% damage.
+- **S1: Coil Shot (8s).** Charges its coil for 1s, then fires a bolt 25 studs for 3.5B that stuns for 0.5s.
+- **S2: Tesla Tower (11s).** Plants a small tesla coil for 5s. It zaps the nearest enemy within 12 studs for 0.6B every 0.5s.
+- **Ult: Power Grid.** Lightning links Eelus to every enemy within 20 studs for 3s, dealing 1.5B per second to each. Enemies linked for the whole time are stunned for 1s.
 
 ### 114 Rhinobeetlus Laserus (Epic): Laser sniper
 - **Basic: Horn Laser.** A short beam.
 - **S1: Focused Beam (9s).** Charges for 1s, then fires a 30-stud laser for 4B that passes through enemies.
 - **S2: Carapace Hop (10s).** Flutters 8 studs and gains a shield worth 10% of its max health for 2s.
 - **Ult: Sweeping Laser.** Stands still and fires a beam for 3s that can be swept around. It deals 2B every 0.5s.
+
+### 117 Peacockus Gearus (Epic): Gear thrower
+- **Basic: Gear Flick.** Flicks a small spinning gear.
+- **S1: Fan Spread (8s).** Fans its tail and fires 5 gears in a wide arc for 1.2B each. The gears stick in the ground for 2s and hurt enemies who walk over them.
+- **S2: Wind Up (9s).** Winds its clockwork for 30% speed for 2s. Its next 3 shots bounce to a second enemy.
+- **Ult: Grand Display.** Opens its full tail and launches a giant gear saw that rolls out 30 studs and back. It deals 4B each way and slows enemies 30%.
 
 ### 124 Narwhalus Submarinus (Legendary): Long-range artillery
 - **Basic: Periscope Dart.**
@@ -372,18 +393,6 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Balloon Float (10s).** Floats over enemies for 1.5s and drifts 10 studs. Enemies near the landing spot are slowed 30%.
 - **Ult: Pop Goes the Puffer.** Swells to 3 times its size for 2s and moves slowly, then pops. Enemies within 12 studs take 5B, are pushed to the edge and are stunned for 1s.
 
-### 049 Skunkus Perfumus (Uncommon): Slow cloud
-- **Basic: Spritz.**
-- **S1: Perfume Cloud (8s).** An 8-stud cloud that slows enemies inside 35% for 4s.
-- **S2: Stink Bomb (10s).** Throws a bottle for 2B. Enemies hit receive 40% less healing for 4s.
-- **Ult: Eau de Pew.** A 16-stud fog for 5s. Enemies inside are slowed 50% and can't use dashes.
-
-### 069 Salamandrus Gluestickus (Uncommon): Rooter
-- **Basic: Glue Glob.** Slows 10%.
-- **S1: Glue Puddle (9s).** A 6-stud puddle that lasts 4s. Each enemy that steps in is rooted for 1s, once.
-- **S2: Glue String (8s).** Strings glue to an enemy for 3s, so it can't move more than 8 studs from where it was hit.
-- **Ult: Super Glue Spill.** A 14-stud area of super glue. Enemies inside are rooted for 3s, then take 4B.
-
 ### 072 Tapirus Vacuumus (Uncommon): Pull and push
 - **Basic: Snout Pulse.**
 - **S1: Vacuum (9s).** Pulls enemies in a 12-stud cone 6 studs toward Tapirus.
@@ -395,6 +404,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S1: Shake It Up (9s).** A snow flurry in 8 studs for 2B that slows 30%.
 - **S2: Globe Hide (12s).** Hides in its snow globe for 2s. It can't be targeted and blocks the path like a wall.
 - **Ult: Snowstorm Globe.** Traps a 12-stud area in a giant snow globe for 4s. Enemies inside are slowed 60%, and freeze for 1.5s when it ends.
+
+### 077 Octopus Drumkitus (Rare): Rhythm grabber
+- **Basic: Drumstick Tap.**
+- **S1: Tentacle Grab (9s).** Grabs an enemy up to 12 studs away, pulls it 4 studs closer and holds it in place for 1s while drumming on it for 2B.
+- **S2: Drum Circle (10s).** Sets 3 drums around a spot for 3s. On every beat (once per second) they thump, dealing 1B and slowing enemies near them 30%.
+- **Ult: Eight-Arm Solo.** Plays a 4s drum solo. All 8 tentacles slam down at random spots within 14 studs for 1.5B each, knocking enemies up for 0.5s. Enemies hit 3 times are stunned for 1s.
 
 ### 088 Platypus Cameraus (Rare): Trapper
 - **Basic: Shutter Snap.**
@@ -413,6 +428,12 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S1: Hypno Helix (9s).** A spinning spiral shot. The enemy hit is confused for 1.5s and its movement controls are reversed.
 - **S2: Coil (10s).** Coils around an enemy, rooting both of them for 1.5s and dealing 2B.
 - **Ult: Mesmerize.** Stares in a 12-stud cone. Enemies hit are hypnotized for 2s, slowly walking toward Serpentus and unable to act.
+
+### 112 Mandrillus Brainjarus (Epic): Mind bender
+- **Basic: Psi Bolt.** A glowing bolt from the brain in its jar.
+- **S1: Telekinesis (10s).** Lifts an enemy for 0.75s and throws it 8 studs. If it hits another enemy, both take 2.5B and are stunned for 0.5s.
+- **S2: Brain Freeze (9s).** A psychic wave in a cone for 2B. Enemies hit are slowed 25% for 2s and can't use their battle item for 4s.
+- **Ult: Mind Control.** Takes over one enemy brainrot within 15 studs for 2s. It walks wherever Mandrillus aims, like toward a tower or into its team. Then it's dazed for 0.5s.
 
 ### 121 Albatrossus Stormcloudus (Legendary): Storm caller
 - **Basic: Drizzle Shot.**
@@ -472,11 +493,11 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 - **S2: Milk Puddle (10s).** Slides 10 studs and leaves a milk puddle for 3s. Teammates in it heal 2% of max health per second.
 - **Ult: Milk Wave.** A 25-stud wave of milk. Teammates it passes heal 20% of max health, and enemies take 4B and are pushed 6 studs.
 
-### 052 Poodlus Cupcakus (Uncommon): Healing over time
-- **Basic: Sprinkle Shot.**
-- **S1: Cupcake Toss (8s).** Tosses a cupcake to a teammate that heals 15% of max health over 5s.
-- **S2: Frosting Fling (9s).** On an enemy: 2B and a 25% slow. On a teammate: removes their slows.
-- **Ult: Bake Sale.** Sets up a table with 5 cupcakes for 8s. A teammate who picks one up heals 12% over time and deals 10% more damage for 4s.
+### 061 Fireflius Glowstickus (Uncommon): Light healer
+- **Basic: Glow Spark.**
+- **S1: Snap! (9s).** Snaps its glow stick. Teammates within 10 studs heal 8% of max health, and enemies in the light can be seen for 3s, even in bushes.
+- **S2: Glow Tag (8s).** Throws a glow stick onto a teammate. For 4s, they heal 15% of the damage they deal.
+- **Ult: Firefly Rave.** A swarm of fireflies follows Fireflius for 6s in a 14-stud circle. Teammates inside heal 3% per second and attack 15% faster. Enemies inside can't hide in bushes and are slowed 15%.
 
 ### 096 Yakus Guitarus (Rare): Speed bard
 - **Basic: Pick Flick.**
@@ -524,6 +545,7 @@ Every brainrot's kit is built around one main idea, so no two play alike:
 
 ## Notes
 
-- **Roster:** I couldn't open Infect a Brainrot! from here, since it's a Roblox place and not in this repo. So I used the 80 brainrots, specimen numbers and classes from your design doc. If any name or look in the game is different, the moves still fit the closest match.
+- **Roster:** Names, numbers, rarities and looks come from the Mutant Lab Animals roster list. I couldn't see the actual models, since Infect a Brainrot! is a Roblox place and not in this repo. If a model looks different from its roster description, tell me and I'll adjust its moves.
+- **Leftovers:** The 59 brainrots that aren't playable, minions or suggested wild brainrots can be used for more wild camps, event bosses, or future playable releases.
 - **Healing:** Only Supports heal other brainrots, as the doc says. Tanks protect themselves with shields and damage reduction instead of self-healing.
-- **Balance to check in playtests:** the hard crowd control ultimates (Time Stop, Mesmerize, Panorama, Heavy Lift, Super Glue Spill) and Infinite Endurance. These are the most likely to need shorter durations.
+- **Balance to check in playtests:** the hard crowd control ultimates (Time Stop, Mesmerize, Mind Control, Panorama, Heavy Lift) and Infinite Endurance. These are the most likely to need shorter durations.
